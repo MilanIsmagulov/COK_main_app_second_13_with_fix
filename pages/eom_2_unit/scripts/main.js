@@ -49,6 +49,9 @@ function waitForData() {
                 shortenTitle(blackHeader, 30);  // Сокращаем заголовок до 20 символов
                 ansverButton.innerHTML  =  '<img src="./content/check_circle.svg" alt=">">';
                 reloadButton.innerHTML  =  '<img src="./content/refresh.svg" alt="<">';
+                setTimeout(()=>{
+                    reloadButton.innerHTML  =  '<img src="./content/refresh.svg" alt="<">';
+                }, 2111)
             } else {
                 restoreTitle(blackHeader, originalTitle);
                 ansverButton.textContent  =  'Ответить';

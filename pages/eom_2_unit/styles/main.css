@@ -1878,6 +1878,9 @@ line{
     }
 }
 @media (max-width: 650px) {
+    #control_button_3{
+        content: '<img src="./content/refresh.svg" alt="<">';
+    }
     .h0 img{
         min-width: 0px !important;
         max-width: 0px !important;
