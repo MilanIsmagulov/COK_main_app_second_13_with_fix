@@ -624,7 +624,7 @@ summary {
     overflow: hidden;
 }
 details[open] .content_details {
-    max-height: 500px; /* Достаточно большая высота для содержимого */
+    max-height: 1500px; /* Достаточно большая высота для содержимого */
 }
 /* Общие стили */
 * {

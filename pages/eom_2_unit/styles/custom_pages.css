@@ -129,7 +129,7 @@ p:has(.width_80){
         justify-content: space-evenly;
     }
     .blue_table_element_custom{
-        height: 440px;
+        height: auto;
     }
 }
 
@@ -159,7 +159,7 @@ p:has(.width_80){
         min-height: 700px;
     }
     .blue_table_element_custom{
-        height: 400px;
+        height: auto;
     }
 }
 
@@ -169,6 +169,6 @@ p:has(.width_80){
         width: 100%;
     }
     .table_element_custom{
-        min-height: 400px;
+        min-height: auto;
     }
 }

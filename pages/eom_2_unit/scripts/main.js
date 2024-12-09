@@ -67,6 +67,7 @@ function waitForData() {
                 reloadButton.textContent  =  'Повторить';
             }
         });
+        
         function restoreTitle(element, originalTitle) {
             element.innerText = originalTitle;  // Восстанавливаем оригинальный заголовок
         }

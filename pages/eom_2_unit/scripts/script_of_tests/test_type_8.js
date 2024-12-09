@@ -426,7 +426,7 @@ if (!planeText) {
         // Установка обработчиков событий для кнопок зума
         zoomBtn.forEach((item, index) => {
             document.getElementById('close_popup_btn').addEventListener('click', () => closePopUp());
-            document.getElementById('popup_button_1').addEventListener('click', () => showPopUp());
+            // document.getElementById('popup_button_1').addEventListener('click', () => showPopUp());
             item.addEventListener('click', () => {
                 console.log(`click_${index}`);
                 // Открываем попап и устанавливаем содержимое

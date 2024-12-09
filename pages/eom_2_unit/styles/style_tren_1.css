@@ -543,7 +543,13 @@ button {
         width: 100% !important;
     }
     .main_image{
+        width: 100% !important;
+        overflow: scroll !important;
         order: -1;
+    }
+    .main_image img{
+        min-width: initial !important;
+        width: 100% !important;
     }
     .main_frame{
         overflow-x: scroll;

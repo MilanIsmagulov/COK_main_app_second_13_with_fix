@@ -612,6 +612,9 @@ button {
     .main_frame{
         overflow-x: scroll;
     }
+    .main_image img{
+        min-width: initial !important;
+    }
 }
 #drawingArea {
     position: relative;

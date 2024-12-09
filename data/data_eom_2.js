@@ -1138,7 +1138,7 @@ const data = {
                 <div class="thirteen_img_with_text_custom">
                     <div class="thirteen_text_custom w100_13">
                         <p class="blue_header"><b>VIII. Завершение сборки</b></p>
-                        <p>Проверьте все соединения. Убедитесь, что все провода правильно подключены и надежно зафиксированы; нет мест для короткого замыкания (возьмите дополнительно доказательное движение).</p>
+                        <p>Проверить все соединения. Убедиться, что все провода правильно подключены и надежно зафиксированы; нет мест для короткого замыкания (возьмите дополнительно доказательное движение).</p>
                     </div>
                 </div>
                 <div class="thirteen_img_with_text_custom">
@@ -1308,7 +1308,8 @@ const data = {
                         <div class="text_of_question">
 
                         </div>
-                        <img src="./content/parts/shema.svg" alt="shema"><br>
+                        <img class = 'zoomable' src="./content/parts/shema.svg" alt="shema"><br>
+                        <i style='font-weight: normal;'> (для увеличения изображения дважды кликните на него)</i><br>
                         <!-- <p class="image_sign">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, voluptates iste.</p> -->
 
                             
